@@ -1,0 +1,334 @@
+@keyframes fading{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+header{
+    background: #49274a;
+    border-top: solid 5px #fecd0b;
+}
+body{
+    background: #f5eef8;
+}
+.topnav{
+    font-size: 0.9em;
+    height: 25px;
+    background: #3a1f3b;
+    width: 80%;;
+    margin: 0 auto;
+    text-align: right;
+}
+.topnavul li{
+    font-size: 15px;
+    display: inline;
+    padding: 0 5px;
+    border-left: solid 1px #debbbb;
+}
+li a{
+    color:#debbbb;
+    font-family: monospace;
+}
+#nitjimg{
+    padding: 20px 0 15px 150px;
+}
+
+.bottomnav{
+    padding-left: 100px;
+}
+#brand{
+    font-size: 22px;
+    color:#f2d76e;
+}
+.bottomnav{
+    background: #3a1f3b;
+}
+.bottomnav .dropdown:hover .dropdown-menu{
+    display: block;
+    animation-name: fading;
+    animation-duration: 1s;
+     animation-fill-mode: forwards;
+}
+.bottomnav .dropdown-menu{
+    display: none;
+}
+.bottomnav ul li a:hover{
+    background: #49274a;
+    color: white;
+}
+.bottomnav ul li a:focus{
+    color: black;
+}
+
+
+/*Body css begins*/
+
+.carousel-inner{
+    height: 400px;
+    background: white;
+}
+
+.carousel-control{
+    width: 5%;
+    height: 9%;
+    top: 91%;
+    background: #49274a;
+    opacity: 1;
+    font-size: 13px;
+    padding-top: 9px;
+}
+.left{
+    left: 90%;
+}
+.col-md-8, .col-md-4{
+    background: white;
+    padding: 10px;
+}
+
+/*News Table*/
+.tableresponsive p{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 1px gray;
+}
+.tableresponsive span{
+    float: right;
+    padding-right: 25px;
+}
+#contain{
+    height: 310px;
+    overflow-y: hidden;
+}
+#newstable{
+    margin-top: 354px;
+    margin-bottom: 354px;
+    height: 354px;
+}
+#newstable a{
+    color: #6e536f;
+    text-decoration: none;
+}
+#newstable a:hover, .topnav ul li a:hover{
+    color: #a77671;
+    text-decoration: none;
+}
+/*News table ends*/
+
+/*Upcoming events*/
+#eventsdiv{
+    overflow-x: hidden;
+    height: 25px;
+}
+/*Upcoming events ends*/
+/*Vision css*/
+#visionhead{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+}
+#visionpara{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight:540;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    border-bottom-style: hidden; 
+}
+
+ 
+/*Student corner begins*/
+
+#scorner,#tenders,#scholarship,#gian{
+    display: none;    
+}
+.lists{
+    background: #f5eef8;
+    padding: 15px;
+}
+
+.btns{
+    background: transparent;
+    border: #49274a;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 35px;
+    margin-bottom: 3px;
+    transition-duration: 0.19s;
+}
+.btns:hover{
+    background-color: #f5eef8;
+    transform: translateY(3px);
+}
+.btnactive{
+    background-color: #49274a;
+    color: white;
+    border: #49274a;
+}
+.btnactive:hover{
+    background-color: #49274a;
+}
+#buttondiv{
+    border-bottom: solid 2px #fecd0b;
+}
+
+/*Middle page navbar ends*/
+
+/*Admissions and Results section begins*/
+.outercol{
+    padding: 20px;
+}
+.coladmis{
+    border-top: solid 2px #fecd0b;
+    background: #f5eef8;
+    height: 150px;
+}
+.admissresult{
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tdata{
+    border: solid 1px #fecd0b;
+}
+.tdata h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: #003380;
+}
+
+/*Recruitments*/
+#recdiv{
+    border-bottom: solid 2px #fecd0b;
+}
+#nonfaculty,#faccontract,#nonfaccontract{
+    display: none;
+}
+.recbtn{
+    background: transparent;
+    border: #49274a;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 35px;
+    margin-bottom: 3px;
+    transition-duration: 0.19s;
+}
+.recbtn:hover{
+    background-color: #f5eef8;
+    transform: translateY(3px);
+}
+.recbtnactive{
+    background-color: #49274a;
+    color: white;
+    border: #49274a;
+}
+.recbtnactive:hover{
+    background-color: #49274a;
+}
+
+/*Recruitments section ends here*/
+/*Steps section starts*/
+.stepsdiv{
+    padding: 20px 10px 20px 0;
+}
+.steps{
+    padding: 3px;
+}
+.steps a{
+    color: #49274a;
+}
+/*download section*/
+.downloadrow{
+    margin-top: 10px;
+}
+.downloaddivtop{
+    border-bottom: solid 1px #f5eef8;
+}
+.downloaddivtop p{
+    float: left;
+    font-size: 20px;
+}
+.downloaddivtop img{
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+/*Download section ends*/
+.footer{
+    display: table;
+    background: #49274a;
+    width: 100%;
+    color: #d5b2b4;
+    height: 75px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.tcell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.tcell a{
+    color: #e7d4d7;
+    border-right: solid 1px #e7d4d7;
+    padding: 5px 15px;
+}
+.tcell a:hover{
+    color: #f3c30e;
+    text-decoration: none;
+}
+/*Left side css ends*/
+/*Side bar css begins*/
+#admlink{
+    height: 44px;
+    border-top: solid 2px #f5eef8;
+    padding-top: 10px;
+}
+#admlink a{
+    font-size: 17px;
+    float: left;
+    color: #49274a
+}
+/*Steps to install certificate section*/
+.steps2 {
+    border-bottom: solid 1px #f5eef8;
+}
+/*Gallery*/
+#gallery{
+    padding: 15px;
+    font-size: 19px;
+    border-bottom: solid 2px #f5eef8;
+}
+
+#gallerycontent a img{
+    padding: 5px;
+    width: 150px;
+    height: 35%;
+}
+#contacthead{
+    border-bottom: solid 2px #f5eef8;
+}
+#contacthead span{
+    font-size: 20px;
+}
+#contactcon{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+#gallerycontent img{
+    width: 35%;
+}
